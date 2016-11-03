@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/action_setting"
+    android:title="Setting"
+    android:orderInCategory="100"
+    app:showAsAction = "never"
+    />
+
+    <item
+        android:id="@+id/activitySlidingTabLayout"
+        android:title="Activity library tabLayout"
+        android:orderInCategory="100"
+        app:showAsAction = "never"
+        />
+    <item
+        android:id="@+id/activityRecycleAnimations"
+        android:title="Activity recycle animations"
+        android:orderInCategory="100"
+        app:showAsAction = "never"
+        />
+    <item
+        android:id="@+id/itemNavigateMenu"
+        android:title="@string/next"
+        android:orderInCategory="200"
+        android:icon="@drawable/ic_next"
+        app:showAsAction = "always"
+        />
+
+    <item
+        android:id="@+id/activityAnimImageText"
+        android:title="Anim image and text"
+        android:orderInCategory="200"
+        android:icon="@drawable/ic_next"
+        app:showAsAction = "never"
+        />
+
+</menu>

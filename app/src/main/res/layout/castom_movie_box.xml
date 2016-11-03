@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="13dp"
+        android:id="@+id/imageViewLogo"
+        android:src="@drawable/ic_action_personal"
+        android:layout_marginStart="13dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="31dp" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        android:layout_below="@+id/imageViewLogo"
+        android:layout_alignLeft="@+id/imageViewLogo"
+        android:isIndicator="true"
+        android:layout_alignStart="@+id/imageViewLogo"
+        style="@android:style/Widget.Holo.RatingBar.Indicator"
+
+        />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTitle"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:layout_above="@+id/ratingBar"
+        android:layout_alignTop="@+id/imageViewLogo"
+        android:layout_toRightOf="@+id/imageViewLogo"
+        android:layout_alignRight="@+id/tvAuthor"
+        android:layout_alignEnd="@+id/tvAuthor"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="autor"
+        android:textSize="20dp"
+        android:id="@+id/tvAuthor"
+        android:layout_alignBottom="@+id/ratingBar"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp" />
+
+</RelativeLayout>

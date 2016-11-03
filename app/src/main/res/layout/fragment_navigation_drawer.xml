@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f9f17e02"
+    android:orientation="vertical"
+    tools:context="napatskyf.materialdesing.fragment.NavigationDrawerFragment">
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/conteiner"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="#f9998065"-->
+    <!--android:orientation="vertical">-->
+
+    <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="280dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="140dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_marginBottom="16dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_marginTop="@dimen/drawer_margin_top"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:src="@android:drawable/ic_menu_delete" />&ndash;&gt;-->
+    <!--</LinearLayout>-->
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/drawerList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
+
+
+
