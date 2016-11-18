@@ -36,4 +36,20 @@
         app:showAsAction = "never"
         />
 
+    <item
+        android:id="@+id/animateTransition"
+        android:title="Animate Transition"
+        android:orderInCategory="200"
+        android:icon="@drawable/ic_next"
+        app:showAsAction = "never"
+        />
+
+    <item
+        android:id="@+id/animateShareTransition"
+        android:title="Animate share Transition"
+        android:orderInCategory="200"
+        android:icon="@drawable/ic_next"
+        app:showAsAction = "never"
+        />
+
 </menu>

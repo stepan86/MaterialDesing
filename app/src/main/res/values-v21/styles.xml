@@ -8,5 +8,7 @@
         <item name="android:colorAccent">@color/colorAccent</item>
         <item name="android:windowTranslucentStatus">true</item>
         <item name="android:colorControlHighlight">@color/colorPrimary</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowTransitionBackgroundFadeDuration">5000</item>
     </style>
 </resources>
